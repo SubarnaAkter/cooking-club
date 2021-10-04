@@ -1,0 +1,21 @@
+.top-part{
+    background-image: url("https://www.scclive.org/wp-content/uploads/2017/10/veggies-eggs-cutting-board-banner.jpg");
+    height: 400px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.top-part h1{
+    padding-top: 120px;
+    font-size: 48px;
+    font-weight: 800;
+    color: rgb(28, 46, 204);
+    text-align: center;
+}
+.top-part h4{
+  padding-top: 25px;
+    color: rgb(2, 4, 27);
+    text-align:center;
+}
