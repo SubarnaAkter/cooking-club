@@ -25,7 +25,7 @@ const CookingClasses = () => {
                     {
                         cookingClasses.map(cookingClass =>
 
-                            <Col>
+                            <Col  key={cookingClass.id}>
                                 <Card className="shadow-lg">
                                     <Card.Img variant="top" className="thumb" src={cookingClass.img} />
                                     <Card.Body>

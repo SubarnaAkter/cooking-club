@@ -6,10 +6,10 @@ const Footer = () => {
         <div className="bg-dark text-white">
             <div className="footer-container">
                 <div className="footer-style">
-                    <h3>Cooking Club</h3>
-                    <p><i class="fas fa-home"></i> 419/7, Nurpur. Dhaka-1236 Bangladesh</p>
-                    <p><i class="fas fa-phone-alt"></i> 01244543554</p>
-                    <p><i class="fas fa-envelope"></i>  cookingclub1210@gmail.com</p>
+                    <h3 className="title">Cooking Club</h3>
+                    <p><i className="fas fa-home"></i> 419/7, Nurpur. Dhaka-1236 Bangladesh</p>
+                    <p><i className="fas fa-phone-alt"></i> 01244543554</p>
+                    <p><i className="fas fa-envelope"></i>  cookingclub1210@gmail.com</p>
                 </div>
                 <div className="footer-style">
                     <h5>Our Account</h5>
@@ -28,7 +28,7 @@ const Footer = () => {
                             aria-describedby="basic-addon2"
                         />
                         <Button variant="outline-secondary" id="button-addon2">
-                        <i class="fas fa-location-arrow"></i>
+                        <i className="fas fa-location-arrow"></i>
                         </Button>
                     </InputGroup>
                 </div>

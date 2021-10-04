@@ -26,7 +26,7 @@ const Home = () => {
                 <Row xs={1} md={2} className="g-5 ">
 
                     {courses.slice(0, 4).map(course => <Course
-
+                         key={course.id}
                         course={course}></Course>
 
                     )

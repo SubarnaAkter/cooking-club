@@ -1,0 +1,28 @@
+.about-top{
+        background-image: url("https://images-prod.healthline.com/hlcmsresource/images/AN_images/healthy-eating-ingredients-1296x728-header.jpg");
+        height: 400px;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+    }
+    
+    .about-top h1{
+        padding-top: 120px;
+        font-size: 78px;
+       
+        color: rgb(105, 206, 247);
+        text-align: center;
+    }
+    .contact{
+        border: 1px solid rgb(31, 1, 1);
+
+        background-color: rgb(10, 0, 0);
+     
+    }
+    .contact h4{
+        color: rgb(236, 103, 54);
+    }
+    .contact p{
+        color: rgb(252, 251, 250);
+    }

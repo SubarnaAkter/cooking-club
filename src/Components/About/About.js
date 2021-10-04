@@ -56,7 +56,10 @@ const About = () => {
                 <h1 className=" ">Our Professional Team</h1>
                 <Carousel className="mt-5 border w-50 mx-auto" activeIndex={index} onSelect={handleSelect}>
                     {
-                        teams.map(team => <Carousel.Item interval={800} key={team.id}>
+                        teams.map(team => <Carousel.Item 
+                            key={team.teamId}
+                            interval={800} 
+                        >
 
                             <img
                                 className="d-block h-100 w-100"

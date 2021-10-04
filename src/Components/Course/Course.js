@@ -18,7 +18,7 @@ const Course = (props) => {
                            {description}
                         </Card.Text>
                         <Card.Text>
-                        <h5> Course Fee: ${fee}</h5>
+                         Course Fee: ${fee}
                         </Card.Text>
                     </Card.Body>
                   
