@@ -66,15 +66,15 @@ const Contact = () => {
 
                 <div className="contact w-50 mx-auto p-5 m-5">
                     <div >
-                        <h4>Visit us : 419/7,Dhaka-1236,Bangladesh</h4>
+                        <h4><i className="fas fa-map-marker-alt"></i> Visit us : 419/7,Dhaka-1236,Bangladesh</h4>
                         <p>Nurpur-dania</p>
                     </div>
                     <div>
-                    <h4>Call us : 0112435435 or 0534544456</h4>
+                    <h4><i className="fas fa-phone-square-alt"></i>  Call us : 0112435435 or 0534544456</h4>
                         <p>You may call us everyday from 9 a.m. till 7 p.m</p>
                     </div>
                     <div>
-                        <h4>Mail us : cookingclub1210@gmail.com</h4>
+                        <h4><i className="fas fa-envelope"></i>   Mail us : cookingclub1210@gmail.com</h4>
                         <p>Is there any question you would like to ask us?</p>
                     </div>
                 </div>
