@@ -35,7 +35,7 @@ const CookingClasses = () => {
                                         </Card.Text>
                                         <Card.Title>Course fee: ${cookingClass.fee}</Card.Title>
                                     </Card.Body>
-                                    <Button className=" w-50 mx-auto mb-3">Learn more...</Button>
+                                    <button className=" w-50 mx-auto mb-3 btn-style">Learn more...</button>
                                 </Card>
                             </Col>
                         )

@@ -32,7 +32,7 @@ const About = () => {
                         <h1 className="mt-5 fs-1 fw-bold">WelCome to Cooking Club</h1><br /><i className="fas fa-utensils mb-5 mx-auto"></i>
                         <p>The Eligibility criteria for becoming a chef is students have to clear 10+2 for Degree Courses like BA in Culinary Arts, Bachelor of Hotel Management (BHM), Bachelor of Catering Technology and Culinary Arts (BCTCA)..</p>
 
-                        <a href="s">Read More</a>
+                        <a href=".." className="read-more">Read More...</a>
                     </div>
                     <img src="https://static5.depositphotos.com/1003434/514/i/600/depositphotos_5147838-stock-photo-attractive-smiling-cook.jpg" alt="" width="50%" />
                 </div>
@@ -48,7 +48,7 @@ const About = () => {
                     <h1 className="my-5 fs-1 fw-bold">Perfect Cooking Classes for You</h1>
                     <p>An annual MasterClass membership is the best way to learn cooking skills from some of the world’s best chefs. Each class—from the likes of Alice Waters, Gordon Ramsay and Dominique Ansel—consists of about a dozen or so pre-recorded videos that range from 10-30 minutes so you can learn at your own pace. Right now they’re offering a buy-one get-one deal on their annual all-access membership, which means you can take as many classes as you’d like over the next 365 days and give a membership to a friend or family member for free.</p>
 
-                    <a href="s">Read More</a>
+                    <a href="/" className="read-more">Read More...</a>
                 </div>
             </div>
             <div>
@@ -78,7 +78,7 @@ const About = () => {
             <div className="container ">
                 <h5 className="style mt-5 pt-5">Our Avantages</h5>
                 <h1 className="mb-5 ">Why choose us</h1>
-                <div className="d-flex  flex-sm-wrap flex-md-nowrap">
+                <div className="d-flex   flex-sm-column flex-md-row">
                     <div className="text-start">
                         <div >
                             <h1>Better Learning</h1>
@@ -118,7 +118,7 @@ const About = () => {
             </div>
             {/* subscribe */}
             <div className="mt-5 shadow-lg">
-                <h1 className="mt-5 pt-5">Subscribe Now</h1>
+                <h1 className="mt-5 pt-5 style">Subscribe Now</h1>
                 <p className="">Stay up-to-date with our new culinary recipes, news and cooking tips.</p>
 
                 <InputGroup className="mb-3 py-5 w-50 mx-auto">
@@ -127,7 +127,7 @@ const About = () => {
                         aria-label="Recipient's username"
                         aria-describedby="basic-addon2"
                     />
-                    <Button variant="outline-secondary" className="" id="button-addon2">
+                    <Button variant="outline-secondary" className=" fw-bold" id="button-addon2">
                         Subscribe
                     </Button>
                 </InputGroup>

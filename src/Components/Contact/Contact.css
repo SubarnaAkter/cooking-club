@@ -18,11 +18,19 @@
         border: 1px solid rgb(31, 1, 1);
 
         background-color: rgb(10, 0, 0);
-     
+        box-shadow: 5px 8px 15px grey;
     }
     .contact h4{
         color: rgb(236, 103, 54);
     }
     .contact p{
         color: rgb(252, 251, 250);
+    }
+    .read-more{
+        color:rgb(236, 80, 23);
+        text-decoration: none;
+        font-size: 19px;
+    }
+    .faq{
+        background-color: rgb(255, 241, 238);
     }

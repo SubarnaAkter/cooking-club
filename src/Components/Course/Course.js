@@ -14,7 +14,7 @@ const Course = (props) => {
                     <Card.Img variant="top" className="w-100 thumb mx-auto"  src={img} />
                     <Card.Body>
                         <Card.Title className="text-center ">{course}</Card.Title>
-                        <Card.Text>
+                        <Card.Text  className="text-start ">
                            {description}
                         </Card.Text>
                         <Card.Text>
@@ -22,11 +22,11 @@ const Course = (props) => {
                         </Card.Text>
                     </Card.Body>
                   
-                    <Button variant="success">See Details</Button>
+                    <button className="btn-style mx-auto">See Details</button>
                 </Card>
             </Col>
       
-    );
+    );     
     
 };
 
