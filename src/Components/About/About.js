@@ -25,7 +25,7 @@ const About = () => {
             <hr />
             <div>
 
-                <div className="d-flex container shadow px-4 mt-5">
+                <div className="d-flex flex-sm-wrap flex-md-nowrap container shadow px-4 mt-5">
 
 
                     <div className="w-50 p-3 text-start mb-5 ">
@@ -41,7 +41,7 @@ const About = () => {
 
             <h1 className="mt-5 fs-1 fw-bold " >Our Mission</h1>
             <br /><i className="fas fa-utensils mb-5"></i>
-            <div className="d-flex container shadow p-0">
+            <div className="d-flex flex-sm-wrap flex-md-nowrap container shadow p-0">
                 <img src="https://onlinelibrary.wiley.com/pb-assets/20487177/Bioactive%20compounds-1615400802.jpg" alt="" width="50%" />
 
                 <div className="w-50 p-3 text-start mb-5 ">
@@ -78,7 +78,7 @@ const About = () => {
             <div className="container ">
                 <h5 className="style mt-5 pt-5">Our Avantages</h5>
                 <h1 className="mb-5 ">Why choose us</h1>
-                <div className="d-flex">
+                <div className="d-flex  flex-sm-wrap flex-md-nowrap">
                     <div className="text-start">
                         <div >
                             <h1>Better Learning</h1>
