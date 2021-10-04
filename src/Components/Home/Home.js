@@ -3,7 +3,7 @@ import './Home.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Row } from 'react-bootstrap';
 import Course from '../Course/Course';
-import { useHistory } from 'react-router';
+
 
 const Home = () => {
 
@@ -13,10 +13,7 @@ const Home = () => {
             .then(res => res.json())
             .then(data => setCourses(data))
     }, []);
-    const history=useHistory();
-    const handleClick=()=>{
-          history.push('/CookingClasses');
-    }
+   
 
     return (
         <div >
