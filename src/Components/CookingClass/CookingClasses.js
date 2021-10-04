@@ -1,7 +1,8 @@
 import React from 'react';
 import { useEffect } from 'react';
 import { useState } from 'react';
-import { Button, Card, Col, Row } from 'react-bootstrap';
+import {  Card, Col, Row } from 'react-bootstrap';
+import { useHistory } from 'react-router';
 import './cookingClasses.css';
 
 const CookingClasses = () => {
@@ -11,6 +12,10 @@ const CookingClasses = () => {
             .then(res => res.json())
             .then(data => setCookingClasses(data))
     }, []);
+    const history=useHistory();
+    const handleBack=()=>{
+          history.push('/Home');
+    }
 
     return (
         <div>
@@ -44,6 +49,7 @@ const CookingClasses = () => {
 
 
                 </Row>
+                <button onClick={handleBack} className="btn-style me-auto my-5">Back to Home</button>
             </div>
 
         </div>

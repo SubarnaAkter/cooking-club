@@ -1,15 +1,17 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Card, Col,Button } from 'react-bootstrap';
+import { Card, Col } from 'react-bootstrap';
 import './Course.css';
+
 
 const Course = (props) => {
     
     const {course,description,img,fee}=props.course;
+   
 
     return (
         
-            <Col className="course mt-5 ">
+<Col className="course mt-5 ">
                 <Card  className="shadow-lg p-5 " >
                     <Card.Img variant="top" className="w-100 thumb mx-auto"  src={img} />
                     <Card.Body>
@@ -24,8 +26,12 @@ const Course = (props) => {
                   
                     <button className="btn-style mx-auto">See Details</button>
                 </Card>
+               
             </Col>
-      
+            
+     
+            
+         
     );     
     
 };
