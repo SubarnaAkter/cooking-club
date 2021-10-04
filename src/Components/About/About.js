@@ -25,11 +25,11 @@ const About = () => {
             <hr />
             <div>
 
-                <div className="d-flex container shadow p-0 mt-5">
+                <div className="d-flex container shadow px-4 mt-5">
 
 
                     <div className="w-50 p-3 text-start mb-5 ">
-                        <h1 className="my-5 fs-1 fw-bold">WelCome to Cooking Club</h1><br /><i className="fas fa-utensils mb-5"></i>
+                        <h1 className="mt-5 fs-1 fw-bold">WelCome to Cooking Club</h1><br /><i className="fas fa-utensils mb-5 mx-auto"></i>
                         <p>The Eligibility criteria for becoming a chef is students have to clear 10+2 for Degree Courses like BA in Culinary Arts, Bachelor of Hotel Management (BHM), Bachelor of Catering Technology and Culinary Arts (BCTCA)..</p>
 
                         <a href="s">Read More</a>
@@ -78,7 +78,7 @@ const About = () => {
             <div className="container ">
                 <h5 className="style mt-5 pt-5">Our Avantages</h5>
                 <h1 className="mb-5 ">Why choose us</h1>
-                <div class="d-flex">
+                <div className="d-flex">
                     <div className="text-start">
                         <div >
                             <h1>Better Learning</h1>
