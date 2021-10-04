@@ -14,7 +14,12 @@ const CookingClasses = () => {
 
     return (
         <div>
-            <h1>Choose your class</h1>
+             <div className="heading fs-1 text-center">
+                <h1 >Cooking Classes</h1>
+                <h4>Want to beacome a chef? Then Select your Favourite One</h4>
+            </div>
+            <h6 className="style mt-5 mb-1">Our Best Cooking Classes</h6>
+            <h1 className="mb-5">Choose your class</h1>
             <div className="container classes">
                 <Row xs={1} md={3} className="g-4 ">
                     {
@@ -28,7 +33,7 @@ const CookingClasses = () => {
                                         <Card.Text>
                                             Description: {cookingClass.description}
                                         </Card.Text>
-                                        <Card.Title>Course fee:{cookingClass.fee}</Card.Title>
+                                        <Card.Title>Course fee: ${cookingClass.fee}</Card.Title>
                                     </Card.Body>
                                     <Button className=" w-50 mx-auto mb-3">Learn more...</Button>
                                 </Card>

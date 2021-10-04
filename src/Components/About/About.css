@@ -1,0 +1,15 @@
+.fa-utensils{
+    font-size: 44px;
+    color:rgb(255, 115, 0);
+}
+.members h1{
+  color: rgb(170, 67, 7);
+}
+.members h3{
+    color: rgb(32, 13, 2);
+}
+.about-img{
+    height: 350px;
+    width:  350px;
+    border-radius: 50%;
+}

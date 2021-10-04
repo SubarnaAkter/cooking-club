@@ -1,0 +1,16 @@
+.footer-container{
+    display: flex;
+   justify-content: space-around;
+   padding:25px;
+  margin-top: 85px;
+}
+.footer-style{
+    border-right: 1px solid grey;
+    padding-right: 55px;
+    text-align: left;
+}
+.fa-location-arrow{
+    color:rgb(243, 99, 42);
+ 
+
+}
