@@ -24,7 +24,7 @@ const Course = (props) => {
                         </Card.Text>
                     </Card.Body>
                   
-                    <button className="btn-style mx-auto">See Details</button>
+                    <button className="btn-style mx-auto">Enroll Now</button>
                 </Card>
                
             </Col>

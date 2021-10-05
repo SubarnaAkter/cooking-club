@@ -15,9 +15,9 @@ const Header = () => {
     return (
         <Navbar sticky="top" collapseOnSelect expand="lg" bg="dark" variant="dark">
             <Container className="py-1">
-                <Navbar.Brand href="#home">
+                <Navbar.Brand href="%PUBLIC_URL%/logo.jpg">
                     <img
-                        src="https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/themes/3132702/settings_images/1Vd3BdgGSEOKplwQty8r_file.jpg"
+                        src=""
                         width="35"
                         height="35"
                         className="d-inline-block align-top"
