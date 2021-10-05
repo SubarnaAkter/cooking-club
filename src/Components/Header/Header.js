@@ -15,9 +15,9 @@ const Header = () => {
     return (
         <Navbar sticky="top" collapseOnSelect expand="lg" bg="dark" variant="dark">
             <Container className="py-1">
-                <Navbar.Brand href="https://cdn4.vectorstock.com/i/1000x1000/18/83/food-logo-designs-with-spoon-and-fork-vector-24431883.jpg">
+                <Navbar.Brand href="#home">
                     <img
-                        src=""
+                        src="https://img.freepik.com/free-vector/letter-s-with-spoon-fork-logo-tableware-logo-fast-food-restaurant-logo_65373-25.jpg?size=338&ext=jpg"
                         width="35"
                         height="35"
                         className="d-inline-block align-top"

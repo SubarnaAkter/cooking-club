@@ -3,6 +3,7 @@ import './Home.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Row } from 'react-bootstrap';
 import Course from '../Course/Course';
+import { useHistory } from 'react-router';
 
 
 const Home = () => {
@@ -14,7 +15,10 @@ const Home = () => {
             .then(data => setCourses(data))
     }, []);
    
-
+    const history=useHistory();
+    const handleClick=()=>{
+          history.push('/CookingClasses');
+    }
     return (
         <div >
 
@@ -36,7 +40,7 @@ const Home = () => {
                     }
                 </Row>
             </div>
-          
+            <button onClick={handleClick} className="btn-style mx-auto mt-5">See all Courses</button>
         </div>
     );
 };
