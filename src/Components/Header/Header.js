@@ -15,7 +15,7 @@ const Header = () => {
     return (
         <Navbar sticky="top" collapseOnSelect expand="lg" bg="dark" variant="dark">
             <Container className="py-1">
-                <Navbar.Brand href="%PUBLIC_URL%/logo.jpg">
+                <Navbar.Brand href="https://cdn4.vectorstock.com/i/1000x1000/18/83/food-logo-designs-with-spoon-and-fork-vector-24431883.jpg">
                     <img
                         src=""
                         width="35"
